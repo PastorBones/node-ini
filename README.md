@@ -25,7 +25,7 @@ The file encoding defaults to `utf-8`, but can be changed.
 var ini = require('node-ini');
 ini.encoding = 'utf-16';
 var cfg = ini.parseSync('./config.ini');
-</pre
+</pre>
 
 ## Installation
 npm:

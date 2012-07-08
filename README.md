@@ -23,6 +23,7 @@ var cfg = ini.parseSync('./config.ini');
 npm:
 
 `npm install node-ini`
+
 ## License
 
 (The MIT License)

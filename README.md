@@ -6,18 +6,26 @@ To parse a .ini file asynchronously:
 <pre>
 var ini = require('node-ini');
 ini.parse('./config.ini', function(err,data){
-  if(err) console.log(err)
-  else {
-    console.log(data)
+  if(err) {
+    console.log(err);
+  } else {
+    console.log(data);
   }
 });
 </pre>
 
 To parse a .ini file synchronously:
 <pre>
-var ini = require('iniparser');
+var ini = require('node-ini');
 var cfg = ini.parseSync('./config.ini');
 </pre>
+
+The file encoding defaults to `utf-8`, but can be changed.
+<pre>
+var ini = require('node-ini');
+ini.encoding = 'utf-16';
+var cfg = ini.parseSync('./config.ini');
+</pre
 
 ## Installation
 npm:

@@ -52,7 +52,27 @@ key=value
 
 [sectionObj][key]
 key=value
+</pre>
 
+This will result in an object that looks like this:
+<pre>
+{
+  Section: {
+    key: 'value',
+    arr: [ '1', '2' ],
+    obj: {
+      key: '3'
+    }
+  },
+  sectionArr: [
+    { key: 'value' }
+  ],
+  sectionObj: {
+    key: {
+      key: 'value'
+    }
+  }
+}
 </pre>
 
 ## License

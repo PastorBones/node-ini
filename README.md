@@ -79,7 +79,7 @@ The above config.ini file would result in an object that looks like:
 
 (The MIT License)
 
-Copyright (c) 2009-2010 Jordy van Gelder &lt;jordyvangelder@gmail.com&gt;
+Copyright (c) 2012 Roger Mayfield &lt;pastor_bones@yahoo.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

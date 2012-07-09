@@ -54,7 +54,7 @@ key=value
 key=value
 </pre>
 
-This will result in an object that looks like this:
+The above config.ini file would result in an object that looks like:
 <pre>
 {
   Section: {

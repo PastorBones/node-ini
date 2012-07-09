@@ -32,6 +32,29 @@ npm:
 
 `npm install node-ini`
 
+## Sample .ini file
+<pre>
+; A sample configuration file
+
+[Section]
+key=value
+
+// arrays
+arr[] = 1
+arr[] = 2
+
+// objects
+obj[key] = 3
+
+# Can also have section arrays and objects
+[sectionArr][]
+key=value
+
+[sectionObj][key]
+key=value
+
+</pre>
+
 ## License
 
 (The MIT License)

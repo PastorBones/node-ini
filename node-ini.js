@@ -161,7 +161,7 @@ var INI = function(){
 
   self.parse = function(file, fn){
     if(!fn){
-      return self.parseSynce(file);
+      return self.parseSync(file);
     }
     fs.readFile(file, self.encoding, function(err, data){
       if(err) fn(err);

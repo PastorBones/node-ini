@@ -23,7 +23,6 @@ var INI = function(){
       };
 
   self.encoding = 'utf-8'
-  self.curSection = {}
 
   var addParam = function(pType, cfg, match){
     switch(self.curSection.type){
@@ -95,6 +94,7 @@ var INI = function(){
   var parse = function(data){
     var lines = data.split(/\r\n|\r|\n/)
       , cfg = {};
+    self.curSection = {}
 
     lines.forEach(function(line){
       // Check for comments

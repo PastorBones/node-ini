@@ -173,6 +173,10 @@ var INI = function(){
     return parse(fs.readFileSync(file, self.encoding));
   }
 
+	self.parseSyncData = function(Data){
+		return parse(Data);
+	}
+
 }
 
 module.exports = (function(){

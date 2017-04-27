@@ -2,6 +2,7 @@
   "name": "node-ini",
   "version": "1.0.0",
   "description": "A simple .ini config parser that supports sections, comments, arrays, and objects.",
+  "license": "MIT",
   "author": {
     "name": "Roger Mayfield",
     "email": "pastor_bones@yahoo.com"
